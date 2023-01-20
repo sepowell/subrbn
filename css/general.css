@@ -1,11 +1,16 @@
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  background-color: black;
 }
 
 main {
@@ -15,20 +20,34 @@ main {
 .header {
   height: 115px;
   padding-bottom: 10px;
-
   display: flex;
   justify-content: center;
-
   position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
-
-  border-bottom: 5px solid rgb(96, 0, 128);
   background-color: black;
+  z-index: 100;
 }
 
 .logo-image {
   width: 420px;
   height: auto;
 }
+
+.top-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sedona-cover {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 115px;
+  
+}
+
+
