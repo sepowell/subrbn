@@ -18,7 +18,8 @@ main {
   height: 90px;
   padding-bottom: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -27,9 +28,22 @@ main {
   z-index: 100;
 }
 
+.hamburger-menu {
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
 .logo-image {
-  width: 420px;
-  height: auto;
+  margin-top: 5px;
+  width: 280px;
+  height: 70px;
+}
+
+.shopping-cart {
+  height: 55px;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 
 .about-me {
