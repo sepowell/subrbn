@@ -1,13 +1,17 @@
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: black;
+
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 .header {
@@ -28,11 +32,27 @@ main {
   height: auto;
 }
 
+.about-me {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+}
+
+.profile-picture {
+  height: 400px;
+  width: auto;
+  border-radius: 200px;
+  float: right;
+}
+
 .photo-grid {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+  margin-top: 10px;
 }
 
 .photo {
